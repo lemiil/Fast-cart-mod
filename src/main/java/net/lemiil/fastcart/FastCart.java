@@ -2,6 +2,7 @@ package net.lemiil.fastcart;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lemiil.fastcart.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,6 @@ public class FastCart implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
